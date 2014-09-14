@@ -1,0 +1,26 @@
+{
+  "name": "app.emunova.net",
+  "version": "1.0.0",
+  "description": "app.emunova.net ===============",
+  "main": "server.js",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oncletom/app.emunova.net.git"
+  },
+  "author": "Thomas Parisot (https://oncletom.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oncletom/app.emunova.net/issues"
+  },
+  "homepage": "https://github.com/oncletom/app.emunova.net",
+  "dependencies": {
+    "express": "~4.9.0",
+    "github-api": "~0.7.0"
+  }
+}
