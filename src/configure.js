@@ -5,9 +5,10 @@ var favicon = require('serve-favicon');
 var cors = require('cors');
 
 module.exports = function(app){
-
   app.use(logger('combined'));
+
   app.use(favicon(__dirname + '/../favicon.ico'));
+
   app.use(cors({
     credentials: true,
     origin: function(origin, done){
