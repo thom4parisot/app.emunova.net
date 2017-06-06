@@ -4,7 +4,7 @@
   "description": "app.emunova.net",
   "main": "server.js",
   "engines": {
-    "node": ">=8.0.0"
+    "node": "8.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "url": "https://github.com/oncletom/app.emunova.net.git"
   },
   "config": {
-    "MYSQL_DB_URL": "mysql://root@localhost/oncletom_emunova",
+    "MYSQL_DB_URL": "mysql://root@localhost/oncletom_emunova"
   },
   "author": "Thomas Parisot (https://oncletom.io)",
   "license": "MIT",
