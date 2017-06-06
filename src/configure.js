@@ -27,11 +27,6 @@ module.exports = function(app){
   // Database
   app.locals.db = require('knex')({
     client: 'mysql',
-    connection: {
-      host: config.get('EMUNOVA_DB_HOSTNAME'),
-      user: config.get('EMUNOVA_DB_USERNAME'),
-      password: config.get('EMUNOVA_DB_PASSWORD'),
-      database: config.get('EMUNOVA_DB_NAME')
-    }
+    connection: config.get('MYSQL_DB_URL')
   });
 };
