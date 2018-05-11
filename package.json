@@ -24,13 +24,13 @@
   "homepage": "https://github.com/oncletom/app.emunova.net",
   "dependencies": {
     "cookie-parser": "^1.4.3",
-    "cors": "^2.8.3",
-    "express": "^4.15.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
     "github-api": "^0.7.0",
-    "knex": "^0.13.0",
-    "morgan": "^1.8.2",
-    "mysql": "^2.13.0",
-    "nconf": "^0.8.4",
-    "serve-favicon": "^2.4.3"
+    "knex": "^0.14.6",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "nconf": "^0.10.0",
+    "serve-favicon": "^2.5.0"
   }
 }
